@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Div Class Modifier",
+  "version": "1.0",
+  "description": "Sets the class of certain divs to 'none'.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"]
+}
